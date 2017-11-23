@@ -4,11 +4,11 @@ RSA algorithm is asymmetric cryptography algorithm.
 Asymmetric actually means that it works on two different keys i.e. Public Key and Private Key. 
 As the name describes that the Public Key is given to everyone and Private key is kept private.
 
-#TO EXECUTE 
+# TO EXECUTE 
 
                $ gcc rsadecrypt.c -lm
 
-# OBTAINING ORIGINAL MESSAGE FROM ENCRYPTED MESSAGE 
+OBTAINING ORIGINAL MESSAGE FROM ENCRYPTED MESSAGE 
 (given p,q and c) c->ciphertext
 
               1)Find n=p*q
